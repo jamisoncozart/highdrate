@@ -82,6 +82,18 @@ hr {
   color: #fff;
   border: 2px solid #fff;
   border-radius: 10px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+}
+
+.products-section .well:hover {
+  -webkit-box-shadow: 7px 7px 26px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 7px 26px -4px rgba(0,0,0,0.75);
+  box-shadow: 7px 7px 26px -4px rgba(0,0,0,0.75);
+  opacity: 0.8;
+  top: -10px;
+  transition: 0.1s;
 }
 
 .products-section .content {
@@ -98,4 +110,17 @@ hr {
 .about-section {
   text-align: center;
   background-color: #444;
+  color: #fff;
+}
+
+.about-section .panel {
+  background-color: #444;
+}
+
+.fas {
+  margin: 0 0 20px 0;
+}
+
+.about-section .col-lg-6{
+  padding: 40px;
 }
