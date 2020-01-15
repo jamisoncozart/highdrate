@@ -1,0 +1,23 @@
+nav {
+  height: 8vh;
+  background-color: #222;
+}
+nav a {
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 74px;
+  align-items: center;
+  text-align: center;
+  height: 92vh;
+  background-image: url("../pics/header.jpg");
+  background-size: cover;
+}
+
+.title {
+  padding-bottom: 8vh;
+}
