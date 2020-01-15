@@ -141,3 +141,16 @@ form {
 .input-group {
   width: 40%;
 }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  font-size: 15px;
+  color: rgb(160, 160, 160);
+}
+
+footer p {
+  margin: 0;
+}
