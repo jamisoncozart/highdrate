@@ -1,23 +1,101 @@
-nav {
-  height: 8vh;
-  background-color: #222;
+body {
+  font-family: 'Roboto', sans-serif;
 }
-nav a {
-  color: white;
+
+nav {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.navbar-brand {
+  padding: 15px 25px;
+  font-size: 25px;
+}
+
+nav li a {
+  margin: 0 10px;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 74px;
+  margin-top: 50px;
   align-items: center;
   text-align: center;
-  height: 92vh;
+  height: 95vh;
   background-image: url("../pics/header.jpg");
   background-size: cover;
+  -webkit-box-shadow: 0px -18px 68px 62px rgba(0,0,0,1);
+  -moz-box-shadow: 0px -18px 68px 62px rgba(0,0,0,1);
+  box-shadow: 0px -18px 68px 62px rgba(0,0,0,1);
 }
 
 .title {
-  padding-bottom: 8vh;
+  top: -5vh;
+  color: white;
+  padding: 20px 40px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  margin: 40px 0 20px 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.products-section {
+  text-align: center;
+  padding-bottom: 30px;
+  background: rgb(55,55,55); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(74,74,74,1) 17%, rgba(100,100,100,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(55,55,55,1) 0%,rgba(74,74,74,1) 17%,rgba(100,100,100,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(55,55,55,1) 0%,rgba(74,74,74,1) 17%,rgba(100,100,100,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#646464',GradientType=0 );
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.products-section .well {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 400px;
+  background-color: #555;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.products-section .content {
+  background-color: #222;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.straw-lemon {
+  background-image: url("../pics/strawberry-lemonade.jpg");
+  background-size: cover;
+}
+
+.about-section {
+  text-align: center;
+  background-color: #444;
 }
